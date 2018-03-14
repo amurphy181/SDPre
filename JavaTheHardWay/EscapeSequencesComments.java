@@ -19,6 +19,8 @@ public class EscapeSequencesComments{
     System.out.println("\\\\ \\\\\\ \\\\\\\\"); // it takes 2 to make 1, eh?
     System.out.print("I hope you understand \"escape sequences\" now.\n");
 
+    /* note: words like "println" do not like to be broken up by comments and will not compile.
+       Removing the comment from line 18 inside of "println." */
     // and maybe even comments!
   }
 }

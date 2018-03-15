@@ -19,6 +19,6 @@ public class Objective3Lab5{
     sum = num1 + num2;
 
     System.out.println("The sum of " + num1 + " + " + num2 + " = " + sum);
-    
+
   }
 }

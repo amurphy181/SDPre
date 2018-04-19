@@ -9,7 +9,7 @@ public class PasswordDigest{
 
   MessageDigest digest = MessageDigest.getInstance("SHA-256");
 
-  System.out.println("Password: ");
+  System.out.print("Password: ");
   pw = input.nextLine();
 
   digest.update(pw.getBytes("UTF-8"));
